@@ -1,0 +1,20 @@
+PDF Assignment
+
+$ cat cm15_aug17.pdf cm15_sept8.pdf cm15_sept21.pdf cm15_oct5.pdf cm15_oct19.pdf cm15_nov2.pdf > all_ccminutes.pdf
+
+pdftotext all_ccminutes.pdf
+
+grep -a race all_ccminutes.txt #37 hits
+grep -a racial all_ccminutes.txt #17 hits
+grep -a racism all_ccminutes.txt #13 hits
+#I used the control-F feature in Sublime to better sort through the minutes, as it's hard to read text in the terminal windoww. Race Matters – 14 hits
+
+The Paragraph
+
+Most of the mentions on race relations in Columbia came during public comments on the meeting. The councilmen then discuss race in response. For example, Ian Thomas said in the mintues that "he wanted to validate the comments of Ms. Wilson-Kleekamp and Ms. Ladehoff as he felt he was going through an epiphany on race relations and discrimination in Columbia and throughout the United States."
+
+City Council also discussed race when talking about the recommendations from the Mayor's Task Force on community violence, which is mentioned 25 times. Several people from the group Race Matters mentioend the recommendations in their comments to the council. 
+
+City Manager Mike Matthes 2015 budget proposal detailed ways to address economic inequality. In response to Matthes' budget and a Facebook post by CPOA president Dale Roberts, Karl Skala said he beleived Columbia had a race problem. 
+
+Overall, city council's discussion on race relations in Columbia has been in response to public comments or in talking about the task force's recommendations, the budget or Roberts' Facebook post. 
